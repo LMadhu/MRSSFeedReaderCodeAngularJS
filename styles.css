@@ -1,0 +1,28 @@
+table {
+    border: 1px solid #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+th {
+    background-color: rgb(13, 141, 1);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+td,th {
+    text-align: center;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 15%;
+    padding: 10px;
+}
+td img {
+    max-height: 100px;
+    max-width: 100px;
+}
+td span:not(:last-child):after {
+    content: ', ';
+}
+td span {
+    text-align: left;
+    padding: 0 10px;
+    display: block;
+}
